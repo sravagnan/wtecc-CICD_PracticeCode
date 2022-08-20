@@ -30,7 +30,7 @@ jobs:
       - name: Upload code coverage
         uses: codecov/codecov-action@v2
         with:
-          token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
+          token: 56aa5d21-e16b-4ab7-b215-66fa5a26c750 # not required for public repos
           files: ./coverage1.xml
           flags: unittests
           fail_ci_if_error: true # optional (default = false)
